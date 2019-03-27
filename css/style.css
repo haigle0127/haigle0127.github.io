@@ -4,7 +4,6 @@
 
 /*asid_share*/
 .asid_share{position:fixed;width:40px;bottom:15%;right:0;z-index:890;}
-*html #asid_share{position:absolute;top:expression(documentElement.scrollTop + "px");margin:300px 0 0 0;}
 
 .asid_share .asid_share_box{width:100%;margin-bottom:3px;background:#d9d9d9;text-align:center;}
 .asid_share .asid_share_box a{display:block;height:40px;padding-top:5px;}
