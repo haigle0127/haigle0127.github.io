@@ -2,101 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5209935c-d770-473e-9f14-e9e6dd8287c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/about1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/about2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/author.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog-post.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/perso1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/perso2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/post1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/post2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/post3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/team1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/team2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/team3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/work1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/work2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/work3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/work4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/work5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/work6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/joinus.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/aboutUs-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/alright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/alrightt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backtop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/call.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cpbz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ewm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gszg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon_help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon_say.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon_sweep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iconlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/index-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/join.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/joinus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/linel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/longwanga.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sjrz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wlyp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/yzfw.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joinus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jQuery.hhShare.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.7.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.singlePageNav.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/wow.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="389" column="46" selection-start-line="389" selection-start-column="46" selection-end-line="389" selection-end-column="46" />
+            <state relative-caret-position="122">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -122,6 +29,21 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/background6.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/background5.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/background4.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -140,11 +62,12 @@
       <find>#home</find>
       <find>home</find>
       <find>overlay</find>
-      <find>background</find>
       <find>background4</find>
       <find>ico</find>
       <find>features</find>
       <find>service</find>
+      <find>word</find>
+      <find>background</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,10 +82,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -176,6 +99,11 @@
             <path>
               <item name="haigle-official-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="haigle-official-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haigle-official-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haigle-official-website" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,17 +152,18 @@
       <workItem from="1553736199400" duration="58000" />
       <workItem from="1553736791276" duration="486000" />
       <workItem from="1553737327533" duration="12505000" />
+      <workItem from="1553786178335" duration="1688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17782000" />
+    <option name="totallyTimeSpent" value="21336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21268657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,7 +180,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17028199" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -282,13 +211,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/googlefont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/googlefont.css" />
     <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -344,10 +267,31 @@
         <state relative-caret-position="-4731" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/background6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/background5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/background4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hiclassmate/src/main/resources/templates/include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hiclassmate/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="389" column="46" selection-start-line="389" selection-start-column="46" selection-end-line="389" selection-end-column="46" />
+        <state relative-caret-position="122">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
