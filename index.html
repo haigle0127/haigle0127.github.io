@@ -1,410 +1,963 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<!--
-　　 へ　　　　　／|
-　　/＼7　　∠＿/
-　 /　│　　 ／　／
-　│　Z ＿,＜　／　　 /`ヽ
-　│　　　　　ヽ　　 /　　〉
-　 Y　　　　　`　 /　　/
-　ｲ●　､　●　　⊂⊃〈　　/
-　()　 へ　　　　|　＼〈
-　　>_　 ィ　 │ ／／
-　 /へ@RekcuFrehtom/ﾉ＜| ＼＼
-　 ヽ_ﾉ　　(_／　 │／／
-　　7　　　　　　　|／
-　　＞―r￣￣`ｰ―＿
-皮卡丘,对偷看者使用十万伏特电
-"name": "official website",
-"version": "1.0.1",
-"description": "A cool project",
-"author": "RekcuFrehtom",
-"E-mail": 849812555@qq.com,
-"ip": www.caonizui.com
--->
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
-    <title>龙王软件技术互联信息开发工作室 - haigletechnology Interconnection of all things</title>
-    <meta name="keywords" content="某龙王" />
-    <meta name="description" content="haigle" />
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet"  href="css/style.css">
-    <link rel="stylesheet" href="css/common.css">
-    <script>
-      window.onscroll = function () {
-        var nav = document.getElementById('mynav');
-        var top = document.getElementById('top');
-        var osTop = document.body.scrollTop||document.documentElement.scrollTop;
-        if (osTop > 45) {
-          nav.style.marginTop = 0;
-          nav.style.backgroundColor = "#fff";
-        }else{
-          nav.style.marginTop = 45+'px';
-          nav.style.backgroundColor = "rgba(255,255,255,0.5)";
-        }
-      }
-    </script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>东海的软件技术 - 永远相信 美好的事情即将发生</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Owl Carousel -->
+	<link href="https://cdn.bootcss.com/OwlCarousel2/2.2.1/assets/owl.carousel.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/OwlCarousel2/2.2.1/assets/owl.theme.default.css" rel="stylesheet">
+
+	<!-- Magnific Popup -->
+	<link href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+
+	<!-- Font Awesome Icon -->
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
+
 <body>
-<!--nav-->
-<nav class="navbar navbar-fixed-top" id="mynav">
-            <div class="container">
-                <div class="row">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            <img class="logo" src="img/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right smoothscroll">
-                            <li><a href="#home">首页</a></li>
-                            <li><a href="#our">关于我们</a></li>
-                            <li><a href="#product">产品中心</a></li>
-                            <li><a href="#join">商家入驻</a></li>
-                            <li><a href="#callme">联系我们</a></li>
-                            <li><a target="_blank" href="joinus.html" class="external">招贤纳士</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-<!--nav-->
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background4.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-<!--home-->
-<section id="home">
-    <div class="mark">
-        <div class="container">
-            <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-              <div class="col-sm-2"></div>
-              <div class="col-sm-8">
-              <!--   <h1>阿里巴巴丨开启了财富之门</h1> -->
-                <p>阿里巴巴|开启了财富之门</p>
-               <!--  <h1>神笔马良丨创造了无限可能</h1> -->
-                <p>龙王信息|创造了无限可能</p>
-                <!-- <h1>Professional for Creation</h1> -->
-                <p>Professional for Creation</p>
-                <div class="col-sm-12 btns">
-                  <button class="btn1" type="button" name="button">点击查看更多</button>
-                  <button class="btn2" type="button" name="button">产品中心</button>
-                </div>
-              </div>
-              <div class="col-sm-2"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--home-->
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
 
-<!--our-->
-<section id="our">
-    <div class="container">
-        <div class="row wow fadeInUp" data-wow-duration="1s">
-            <div class="col-md-4">
-                <a href="#" target="_blank">
-                    <img src="img/cpbz.png" class="img-responsive" alt=""/>
-                    <h3>产品保证</h3>
-                    <div class="line line1"></div>
-                    <p>提供最优质的服务，以产品为第一保证，领先行业</p>
-                </a>
-            </div>
-            <div class="col-md-4 mid">
-                <a href="#" target="_blank">
-                    <img src="img/yzfw.png" class="img-responsive" alt=""/>
-                    <h3>优质服务</h3>
-                    <div class="line line2"></div>
-                    <p>为广大商家和消费者搭建更便捷的沟通对话平台</p>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="#" target="_blank">
-                    <img src="img/gszg.png" class="img-responsive" alt=""/>
-                    <h3>公司主营</h3>
-                    <div class="line line3"></div>
-                 <p>主要从事技术与服务、数据处理、O2O模式运营、电子商务创新</p>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--our-->
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
-<!-- us -->
-<section id="us">
-<div class="mark">
-  <div class="container">
-      <div class="row row1">
-          <div class="col-md-4"><img src="img/linel.png"></div>
-          <div class="col-md-4 line0"><p>关于我们 ABOUT US</p></div>
-          <div class="col-md-4"><img src="img/right.png"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-12"><img src="img/down.png"></div>
-      </div>
-      <div class="row wow fadeInRight">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-              <p>长春市神笔马良网络有限公司是中国领先的互联网电商网络有限公司，主要从事技术开发与服务、数据处理、O2O运营模式、电子商务创新等业务、目前公司旗下开发运营的项目以万蓝优品为主，旨在为广大商家和消费者搭建更优质的沟通对话平台。</p>
-              <p>公司拥有雄厚的资金基础，人才济济的研发阵容和极具前瞻理念的运营管理团队。公司倡导团队协作，公平公正，强调员工与企业共成长、共发展的企业文化，鼓励和支持创新，致力于为员工营造一个充分展现自我才智、发展无限潜能的舞台。</p>
-              <p class="p3">在这个互联网开启时尚生活的伟大时代，信息化的深入持久的发展给广大商家带来新一轮的挑战与机遇。在商家做大做强的辉煌征程上长春市神笔马良网络有限公司与你共同见证！</p>
-          </div>
-          <div class="col-md-2"></div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- us -->
-<!--product-->
-<section id="product">
-    <div class="container">
-        <div class="row row1">
-            <div class="col-md-4"><img class="imgss" src="img/linel.png"></div>
-            <div class="col-md-4 line0"><p>产品中心 PRODUCT CENTER</p></div>
-            <div class="col-md-4"><img class="imgss" src="img/right.png"></div>
-        </div>
-        <div class="row roww">
-          <div class="col-md-12"><img src="img/down.png"></div>
-        </div>
-        <div class="row wow fadeInLeft">
-            <div class="col-md-3">
-                <img src="img/wlyp.png" alt="">
-            </div>
-            <div class="col-md-6">
-                <p>万蓝优品是一个高效便捷的生活服务平台，不但涵盖了餐饮、服务、生鲜、旅游、商品零售等众多行业，还从消费者起居生活出发设立了便民的社区物业服务模块，真正地实现了“足不出户，一站式解决生活所有问题”。除了模块设计结合消费者需求之外，平台还创新性地引入了积分商城这一板块，使销售者以团购价格享受商家优质服务的同时获赠平台奖励积分，凭积分可在商城兑换炒锅、碗具、玩偶、水杯等精美礼品。</p>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-        <div class="row wow fadeInLeft">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-                    <button class="btn btn1 btn-primary">
-                        <span class="glyphicon glyphicon-download-alt"></span>
-                        iPhone版
-                    </button>
-                    <button class="btn btn2 btn-primary">
-                        <span class="glyphicon glyphicon-download-alt"></span>
-                        Android版
-                    </button>
-                <img class="imgg" src="img/ewm.png" alt="">
-            </div>
-            <div class="col-md-6"></div>
-        </div>
-    </div>
-</section>
-<!--product-->
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
 
-<!-- 商家入驻 -->
-<section id="join">
-  <div class="mark">
-  <div class="container">
-      <div class="row row1">
-          <div class="col-md-4"><img class="imgss" src="img/linel.png"></div>
-          <div class="col-md-4 line0">
-              <p>商家入驻 MERCHANTS IN</p>
-          </div>
-          <div class="col-md-4"><img class="imgss" src="img/right.png"></div>
-      </div>
-      <div class="row rowss">
-        <div class="col-md-12"><img src="img/down.png"></div>
-      </div>
-      <div class="row">
-          <div class="col-md-12">
-              <p>为什么选择我们？</p>
-          </div>
-      </div>
-      <div class="row wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
-          <div class="imgs col-md-12">
-              <img class="img-responsive" src="img/sjrz.png" alt="">
-          </div>
-      </div>
-  </div>
-</section>
-<section id="joinsm">
-  <div class="container">
-      <div class="row row1">
-          <div class="col-md-4"><img class="imgss" src="img/linel.png"></div>
-          <div class="col-md-4 line0">
-              <p>商家入驻 MERCHANTS IN</p>
-          </div>
-          <div class="col-md-4"><img class="imgss" src="img/right.png"></div>
-      </div>
-      <div class="row rowss">
-        <div class="col-md-12"><img src="img/down.png"></div>
-      </div>
-      <div class="row">
-          <div class="col-md-12 joinp">
-              <p>为什么选择我们？</p>
-          </div>
-      </div>
-      <div class="row rowr wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
-          <div class="col-md-2"><img src="img/alrightt.png">&nbsp;&nbsp;&nbsp;<span>降低流失率</span></div>
-          <div class="col-md-2"><img src="img/alrightt.png">&nbsp;&nbsp;&nbsp;<span>系统简单易用</span></div>
-          <div class="col-md-2"><img src="img/alrightt.png">&nbsp;&nbsp;&nbsp;<span>系统推荐潜在客户</span></div>
-          <div class="col-md-2"><img src="img/alrightt.png">&nbsp;&nbsp;&nbsp;<span>提高营业额</span></div>
-          <div class="col-md-2"><img src="img/alrightt.png">&nbsp;&nbsp;&nbsp;<span>高度可定制化</span></div>
-          <div class="col-md-2"><img src="img/alrightt.png">&nbsp;&nbsp;&nbsp;<span>提高粉丝忠诚度管理</span></div>
-      </div>
-  </div>
-</section>
-<!-- 商家入驻 -->
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">首页</a></li>
+					<li><a href="#about">关于</a></li>
+					<li><a href="#portfolio">周游</a></li>
+					<li><a href="#service">服务</a></li>
+					<li><a href="#pricing">价值</a></li>
+					<li><a href="#team">团队</a></li>
+					<li><a href="#blog">博客</a></li>
+                    <!--<li class="has-dropdown"><a href="#blog">博客</a>-->
+						<!--<ul class="dropdown">-->
+							<!--<li><a href="blog-single.html">blog post</a></li>-->
+						<!--</ul>-->
+					<!--</li>-->
+					<li><a href="#contact">联系</a></li>
+				</ul>
+				<!-- /Main navigation -->
 
-<!-- 联系我们 -->
-<section id="callme">
-  <div class="container">
-          <div class="row">
-            <div class="col-md-4"><img class="imgss" src="img/linel.png"></div>
-            <div class="col-md-4"><p class="p1">联系我们 CONTENT US</p></div>
-            <div class="col-md-4"><img class="imgss" src="img/right.png"></div>
-        </div>
-        <div class="row rowss">
-          <div class="col-md-12"><img src="img/down.png"></div>
-        </div>
-      <div class="row row1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-          <div class="col-md-4 col4">
-              <img src="img/dz.png" alt="">
-              <p>公司地址</p>
-              <div class="line"></div>
-              <p>长春市高新区硅谷大街5000号</p>
-          </div>
-          <div class="col-md-4 col4">
-              <img src="img/call.png" alt="">
-              <p>联系电话</p>
-              <div class="line"></div>
-              <p>0431-8803 3688</p>
-          </div>
-          <div class="col-md-4 col4">
-              <img src="img/mail.png" alt="">
-              <p>电子邮箱</p>
-              <div class="line"></div>
-              <p>shenbimaliang@163.com</p>
-          </div>
-      </div>
-  </div>
-</section>
-<!-- 联系我们 -->
+			</div>
+		</nav>
+		<!-- /Nav -->
 
-<!-- footer -->
-<section id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <ul class="footNav">
-          <li><a href="#us">关于我们&nbsp;&nbsp;</a><span>|</span>&nbsp;&nbsp;</li>
-          <li><a href="#product">产品中心&nbsp;&nbsp;</a><span>|</span>&nbsp;&nbsp;</li>
-          <li><a href="#join">加入我们&nbsp;&nbsp;</a><span>|</span>&nbsp;&nbsp;</li>
-          <li><a href="#callme">联系我们&nbsp;&nbsp;</a>&nbsp;&nbsp;</li>
-        </ul>
-        <p class="techno">Copyright © 长春市神笔马良网络科技有限公司 ShenBiMaLiangNetwork Technology Co.Ltd.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- footer -->
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
 
-<!-- asid start -->
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">永远相信 美好的事情即将发生</h1>
+							<p class="white-text">  听说西边出现一头凶猛野兽，我以身作则率领大家不去西边。村中的无赖每天欺负他的妻子，别人的家事不方便管。
+                                我的宝剑十年来未尝一败，就是太久没用有点锈迹斑斑。我愿随时为胜利献出生命，不过也不是非要今天。
+                                少年几天前出去冒险失去音信，我及时出现提醒村民注意安全。听说巨龙出现带走了公主又消失不见，邻村的事情与我无关。
+                                我要将我的信念贯彻到底，永不放弃我以退为进的勇敢。我们向美好未来执着前进，明天出发也为时不晚。
+							</p>
+							<!--<button class="white-btn">Get Started!</button>-->
+							<!--<button class="main-btn">Learn more</button>-->
+						</div>
+					</div>
+					<!-- /home content -->
 
-<div class="asid_share" id="asid_share">
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
 
-  <!-- <div class="asid_share_box relative">
+	</header>
+	<!-- /Header -->
 
-    <a href="#"><img alt="我有话说" title="我有话说" class="adid_icon" src="img/icon_say.png"></a>
+	<!-- About -->
+	<div id="about" class="section md-padding">
 
-  </div> -->
+		<!-- Container -->
+		<div class="container">
 
-  <!-- <div class="asid_share_box relative">
+			<!-- Row -->
+			<div class="row">
 
-    <a href="#"><img alt="联系我们" title="联系我们" class="adid_icon" src="img/icon_help.png"></a>
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">人文 科技 正义不屈</h2>
+				</div>
+				<!-- /Section header -->
 
-    <div class="asid_share_triangle" style="display:none;">
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-renren"></i>
+						<h3>人文</h3>
+						<p>一直向前走<br/>千万别向后看，否则<br/>就永远回不去原来那个世界了</p>
+						<!-- <a href="#">更多</a> -->
+					</div>
+				</div>
+				<!-- /about -->
 
-      <em class="border_sj">&#9670;</em>
-      <span class="con_sj">&#9670;</span>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-chrome"></i>
+						<h3>科技</h3>
+						<p>我回忆过去，不代表我对过去<br/>的迷恋，也不代表我对现在的失望，它是<br/>代表我越来越自闭</p>
+						<!-- <a href="#">更多</a> -->
+					</div>
+				</div>
+				<!-- /about -->
 
-    </div>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-empire"></i>
+						<h3>正义不屈</h3>
+						<p>朝搴阰之木兰兮，夕揽<br/>洲之宿莽。日月忽其不淹兮，春<br/>与秋其代序。</p>
+						<!-- <a href="#">更多</a> -->
+					</div>
+				</div>
+				<!-- /about -->
 
-    <div class="asid_sha_layer" style="display:none;">
+			</div>
+			<!-- /Row -->
 
-      <ul class="asid_help_list" style="width:200px;">
+		</div>
+		<!-- /Container -->
 
-        <span>TEL:0431-8803 3688</span>
+	</div>
+	<!-- /About -->
 
-      </ul>
 
-    </div>
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
 
-  </div> -->
+		<!-- Container -->
+		<div class="container">
 
-  <div class="asid_share_box relative">
+			<!-- Row -->
+			<div class="row">
 
-    <a href="#"><img alt="扫二微码" title="扫二微码" class="adid_icon" src="img/icon_sweep.png"></a>
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">没有南方的世界</h2>
+				</div>
+				<!-- /Section header -->
 
-    <div class="asid_share_triangle" style="display:none;">
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/word1.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>华表</span>
+						<h3>不存在</h3>
+						<div class="work-link">
+							<!--  <a href="#"><i class="fa fa-external-link"></i></a>  -->
+							<!--  <a class="lightbox" href="./img/word2.jpg"><i class="fa fa-search"></i></a>  -->
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
 
-      <em class="border_sj">&#9670;</em>
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/word2.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>女骑警</span>
+						<h3>没有</h3>
+						<div class="work-link">
+							<!--  <a href="#"><i class="fa fa-external-link"></i></a>  -->
+							<!--  <a class="lightbox" href="./img/word2.jpg"><i class="fa fa-search"></i></a>  -->
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
 
-      <span class="con_sj">&#9670;</span>
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/word3.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>麦多馅饼</span>
+						<h3>找不到了</h3>
+						<div class="work-link">
+							<!--  <a href="#"><i class="fa fa-external-link"></i></a>  -->
+							<!--  <a class="lightbox" href="./img/word2.jpg"><i class="fa fa-search"></i></a>  -->
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
 
-    </div>
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/word4.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>双城区</span>
+						<h3>就是个堡(pǔ)子</h3>
+						<div class="work-link">
+							<!--  <a href="#"><i class="fa fa-external-link"></i></a>  -->
+							<!--  <a class="lightbox" href="./img/word2.jpg"><i class="fa fa-search"></i></a>  -->
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
 
-    <div class="asid_sha_layer" style="width:250px;display:none;">
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/word5.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>哈尔滨站</span>
+						<h3>推倒了</h3>
+						<div class="work-link">
+							<!--  <a href="#"><i class="fa fa-external-link"></i></a>  -->
+							<!--  <a class="lightbox" href="./img/word2.jpg"><i class="fa fa-search"></i></a>  -->
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
 
-      <p class="sweep_img"><img src="img/ewm.png" width="220"></p>
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/word6.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>西二旗</span>
+						<h3>北京欢迎你</h3>
+						<div class="work-link">
+							<!--  <a href="#"><i class="fa fa-external-link"></i></a>  -->
+							<!--  <a class="lightbox" href="./img/word2.jpg"><i class="fa fa-search"></i></a>  -->
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
 
-      <p class="pb6"><b>扫一扫二维码，下载万蓝优品APP</b></p>
+			</div>
+			<!-- /Row -->
 
-    </div>
+		</div>
+		<!-- /Container -->
 
-  </div>
+	</div>
+	<!-- /Portfolio -->
 
-  <div class="asid_share_box relative" style="display:none;">
+	<!-- Service -->
+	<div id="service" class="section md-padding">
 
-    <a href="#"><img alt="返回顶部" title="返回顶部" class="adid_icon" src="img/icon_back.png"></a>
+		<!-- Container -->
+		<div class="container">
 
-  </div>
+			<!-- Row -->
+			<div class="row">
 
-</div>
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">这是我写的程序</h2>
+				</div>
+				<!-- /Section header -->
 
-<!-- asid end -->
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-envira"></i>
+						<h3>VEadmin</h3>
+						<p>VEadmin是逻辑超简单的后端权限管理快速开发的平台，用php写的，已经很久没更新了</p>
+					</div>
+				</div>
+				<!-- /service -->
 
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script type="text/javascript" src="js/jQuery.hhShare.min.js"></script>
-<script src="js/pace.min.js"></script>
-<script>
-    $(function(){
-        new WOW().init();
-        /*导航跳转效果插件*/
-        $('.nav').singlePageNav({
-            offset:110,
-            filter: ':not(.external)'
-        });
-        $('.footNav').singlePageNav({
-            offset:110,
-        });
-        /*小屏幕导航点击关闭菜单*/
-        $('.navbar-collapse a').click(function(){
-            $('.navbar-collapse').collapse('hide');
-        });
-        //图片滚动特效
-        $('#asid_share').hhShare({
-          cenBox     : 'asid_share_box',
-          icon       : 'adid_icon',
-          addClass   : 'red_bag',
-          titleClass : 'asid_title',
-          triangle   : 'asid_share_triangle',
-          showBox    : 'asid_sha_layer'
-        });
-    })
-</script>
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-rocket"></i>
+						<h3>Around</h3>
+						<p>Around是完全不受控制的，非即时通讯的线下二手交易平台，工期也无限延期，好消息是还在开发中</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-cogs"></i>
+						<h3>HICLASSMETE</h3>
+						<p>同学你好是新鲜水果售卖小程序，由于拖得太久已经把这个名字用在博客上了，博客还没有写完</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>农业小程序</h3>
+						<p>主要售卖自家大米的，还没有开工，这个优先级比较高，但是又是延期，真的没时间做</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-angellist"></i>
+						<h3>haigle官网</h3>
+						<p>对，没错，就是这个网站，改了八百版，以后除了浏览器不兼容之外是不会变的了</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-flask"></i>
+						<h3>软件预留位</h3>
+						<p>太多的坑没有填了，比如写一篇小说，真心觉得生命不够使，不上班还行</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+	<div id="features" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- why choose us content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">Why Choose Us</h2>
+					</div>
+					<p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Quis varius quam quisque id diam vel quam elementum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Mauris augue neque gravida in fermentum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Orci phasellus egestas tellus rutrum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+					</div>
+				</div>
+				<!-- /why choose us content -->
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Why Choose Us -->
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-users"></i>
+						<h3 class="white-text"><span class="counter">451</span></h3>
+						<span class="white-text">Happy clients</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-trophy"></i>
+						<h3 class="white-text"><span class="counter">12</span></h3>
+						<span class="white-text">Awards won</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-coffee"></i>
+						<h3 class="white-text"><span class="counter">154</span>K</h3>
+						<span class="white-text">Cups of Coffee</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-file"></i>
+						<h3 class="white-text"><span class="counter">45</span></h3>
+						<span class="white-text">Projects completed</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Numbers -->
+
+	<!-- Pricing -->
+	<div id="pricing" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Pricing Table</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Basic plan</span>
+							<div class="price">
+								<h3>$9<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Silver plan</span>
+							<div class="price">
+								<h3>$19<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Gold plan</span>
+							<div class="price">
+								<h3>$39<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Pricing -->
+
+
+	<!-- Testimonial -->
+	<div id="testimonial" class="section md-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background3.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Testimonial slider -->
+				<div class="col-md-10 col-md-offset-1">
+					<div id="testimonial-slider" class="owl-carousel owl-theme">
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso1.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso2.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+					</div>
+				</div>
+				<!-- /Testimonial slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Testimonial -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team2.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+	<!-- Blog -->
+	<div id="blog" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Recents news</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive" src="./img/blog1.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive" src="./img/blog2.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive"  src="./img/blog3.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>512-421-3940</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>email@support.com</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>1739 Bubby Drive</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+						<li><a href="#"><i class="fa fa-github"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-mail-reply-all"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 1993-2019. All Rights Reserved. Designed by <a href="#" target="_blank">haigle</a> More Templates <a href="http://www.haigle.cn/" target="_blank" title="haigle">haigle</a> - Collect from <a href="http://www.chaigle/" title="haigle" target="_blank">haigle</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.js"></script>
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.bootcss.com/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+	<script src="https://cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
 </body>
+
 </html>
