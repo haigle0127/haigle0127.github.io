@@ -556,9 +556,6 @@ header {
     text-align: center;
 }
 
-.home-content h1 {
-  text-transform: uppercase;
-}
 .home-content button {
   margin-top: 20px;
 }
@@ -697,7 +694,6 @@ header {
 
 .work .work-content span {
     display: block;
-    text-transform: uppercase;
     -webkit-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%);
@@ -865,7 +861,6 @@ header {
 .pricing .price-title {
     display: block;
     padding: 40px 0px 20px;
-    text-transform: uppercase;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
@@ -906,7 +901,6 @@ header {
 .pricing .duration {
     display: block;
     font-size: 14px;
-    text-transform: uppercase;
     color: #10161A;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
@@ -953,7 +947,6 @@ header {
 .testimonial span {
     font-size: 14px;
     color: #6195FF;
-    text-transform: uppercase;
 }
 
 
@@ -1025,7 +1018,6 @@ header {
 
 .team .team-content span {
     font-size: 14px;
-    text-transform: uppercase;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
@@ -1161,7 +1153,6 @@ header {
 .blog-author .media .media-heading h3 {
     display: inline-block;
     margin: 0;
-    text-transform: uppercase;
 }
 
 .blog-author .media .media-heading .author-social {
@@ -1209,7 +1200,6 @@ header {
 }
 
 .blog-comments .media .media-body .media-heading {
-    text-transform: uppercase;
     margin-bottom:10px;
 }
 
@@ -1224,7 +1214,6 @@ header {
     float: right;
     margin: 0;
     font-size: 12px;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
@@ -1267,10 +1256,6 @@ header {
 
 #aside .widget {
     margin-bottom: 40px;
-}
-
-.widget h3 {
-  text-transform: uppercase;
 }
 
 /* -- search sidebar -- */
@@ -1450,7 +1435,6 @@ header {
 .footer-copyright p {
     text-align: center;
     font-size: 14px;
-    text-transform: uppercase;
     margin: 0;
 }
 
