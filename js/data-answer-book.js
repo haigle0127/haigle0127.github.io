@@ -7,7 +7,7 @@ $(function () {
         success: function (data) {
             $("#title").text(data.title);
             $("#subtitle").text(data.subtitle);
-            i = (parseInt(Math.random() * 10));
+            var i = Math.floor(Math.random() * data.list.length);
             console.log(i)
             $("#answerTitle").text(data.list[i]);
         }
