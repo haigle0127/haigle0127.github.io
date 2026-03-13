@@ -7,24 +7,32 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="https://www.haigle.cn/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>HAIGLE - 永远相信 美好的事情即将发生</title>
-	<style type="text/css">
+	<style>
 		* {
 			padding: 0;
 			margin: 0;
 		}
+		/*.main-box {*/
+		/*	height: 100vh;*/
+		/*	background-color: #000;*/
+		/*	background-image: url('./image/fukan.jpg');*/
+		/*	animation: changes 20s 0.2s linear infinite alternate;*/
+		/*}*/
 		.main-box {
 			height: 100vh;
 			background-color: #000;
-			background-image: url('https://www.haigle.cn/static_resources/official-website/image/20151202bigshow.jpg');
-			animation: changes 10s 0.2s linear infinite alternate;
+			background-image: url('./image/image-1.jpg');
+			background-size: cover;
+			background-position: center;
+			animation: changes 60s 0.2s linear infinite alternate;
 		}
-		.main-box {
+		   .main-box {
 			display: flex;
 			align-items: center;
 			text-align: center;
@@ -62,14 +70,52 @@
 	<div class="content-box">
 		<br /><br />
 		<h1>“永远相信 美好的事情即将发生”</h1>
-		<br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br />
+		<p>
+			<a href="https://github.com/haigle0127" target="_blank">
+				<img
+						src="https://img.shields.io/badge/github-181717?logo=github&logoColor=fff"
+						alt="github"
+				/>
+			</a>
+			<a href="https://www.haigle.com" target="_blank">
+				<img
+						src="https://img.shields.io/badge/主页-FF6900?logo=awwwards&logoColor=fff"
+						alt="haigle主页"
+				/>
+			</a>
+			<a href="https://weibo.com/u/1714787180" target="_blank">
+				<img
+						src="https://img.shields.io/badge/微博-E6162D?logo=sinaweibo&logoColor=fff"
+						alt="微博"
+				/>
+			</a>
+			<a href="https://www.haigle.com/official-website" target="_blank">
+				<img
+						src="https://img.shields.io/badge/博客-29A696?logo=Bloglovin&logoColor=fff"
+						alt="博客"
+				/>
+			</a>
+			<a href="javascript:void(0)">
+				<img src="https://visitor-badge.laobi.icu/badge?page_id=www.haigle.cn" alt="游客访问数" />
+			</a>
+		</p>
 	</div>
+
 </div>
 <!-- 底部 -->
 <div class="foot">
-	<a>HAIGLE官方网站 © 2016-2025.  haigletech监制.</a><br>
-	<a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备18004657号</a>
+	<a>HAIGLE © 2016-2026.  haigletech</a><br>
+	<a href="https://beian.miit.gov.cn/" target="_blank"></a>
 </div>
 </body>
+<script>
+	const TOTAL_IMAGES = 3; // 图片总数，添加新图片时修改此数字
+	const randomIndex = Math.floor(Math.random() * TOTAL_IMAGES) + 1;
+	const imageName = `image-${randomIndex}.jpg`;
+	const styleElement = document.createElement('style');
+	styleElement.textContent = `.main-box { background-image: url('./image/${imageName}'); }`;
+	document.head.appendChild(styleElement);
+</script>
 
 </html>
