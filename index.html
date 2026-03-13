@@ -31,7 +31,7 @@
 		.main-box {
 			height: 100vh;
 			background-color: #000;
-			background-image: url('./image/image-1.jpg');
+			background-image: url('https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg');
 			background-size: cover;
 			background-position: center;
 			animation: changes 60s 0.2s linear infinite alternate;
@@ -118,12 +118,27 @@
 </div>
 </body>
 <script>
-	const TOTAL_IMAGES = 6; // 图片总数，添加新图片时修改此数字
-	const randomIndex = Math.floor(Math.random() * TOTAL_IMAGES) + 1;
-	const imageName = `image-${randomIndex}.jpg`;
+	const wallpapers = [
+		'https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_3840,h_2160/quality,q_96/format,webp&t=1773390042503',
+		'https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_3840,h_2160/quality,q_96/format,webp&t=1773390488264',
+		'https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_3840,h_2160/quality,q_96/format,webp&t=1773390573666',
+		'https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_3840,h_2160/quality,q_96/format,webp&t=1773390636979',
+		'https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_3840,h_2160/quality,q_96/format,webp&t=1773391033077',
+		'https://files.codelife.cc//itab/wallpaper/62629935282fb41ab01290d4.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_3840,h_2160/quality,q_96/format,webp&t=1773391049391',
+	];
+
+	const randomIndex = Math.floor(Math.random() * wallpapers.length);
 	const styleElement = document.createElement('style');
-	styleElement.textContent = `.main-box { background-image: url('./image/${imageName}'); }`;
+	styleElement.textContent = `.main-box { background-image: url('${wallpapers[randomIndex]}'); }`;
 	document.head.appendChild(styleElement);
 </script>
+<!--<script>-->
+<!--	const TOTAL_IMAGES = 6; // 图片总数，添加新图片时修改此数字-->
+<!--	const randomIndex = Math.floor(Math.random() * TOTAL_IMAGES) + 1;-->
+<!--	const imageName = `image-${randomIndex}.jpg`;-->
+<!--	const styleElement = document.createElement('style');-->
+<!--	styleElement.textContent = `.main-box { background-image: url('./image/${imageName}'); }`;-->
+<!--	document.head.appendChild(styleElement);-->
+<!--</script>-->
 
 </html>
