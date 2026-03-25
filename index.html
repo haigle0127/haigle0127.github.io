@@ -35,8 +35,18 @@
 			background-size: cover;
 			background-position: center;
 			animation: changes 60s 0.2s linear infinite alternate;
+			position: relative;
 		}
-		   .main-box {
+		.video-background {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			object-fit: cover;
+			z-index: -1;
+		}
+	   .main-box {
 			display: flex;
 			align-items: center;
 			text-align: center;
@@ -74,7 +84,7 @@
 
 <body>
 <!-- 内容 -->
-<div class="main-box">
+<div class="main-box" id="mainBox">
 	<div class="content-box">
 		<br /><br />
 		<h1>“永远相信 美好的事情即将发生”</h1>
@@ -118,12 +128,40 @@
 </div>
 </body>
 <script>
+	const randomFileIndex = Math.floor(Math.random() * 2) + 1;
+	let file = "image";
 	const TOTAL_IMAGES = 6; // 图片总数，添加新图片时修改此数字
 	const randomIndex = Math.floor(Math.random() * TOTAL_IMAGES) + 1;
-	const imageName = `image-${randomIndex}.jpg`;
-	const styleElement = document.createElement('style');
-	styleElement.textContent = `.main-box { background-image: url('./image/${imageName}'); }`;
-	document.head.appendChild(styleElement);
+	let fileName = `image-${randomIndex}.jpg`;
+	
+	if(randomFileIndex === 1) {
+		// 使用视频背景
+		file = "video";
+		fileName = "blackhole.mp4";
+		
+		// 创建 video 元素
+		const mainBox = document.getElementById('mainBox');
+		const videoElement = document.createElement('video');
+		videoElement.className = 'video-background';
+		videoElement.src = `./${file}/${fileName}`;
+		videoElement.autoplay = true;
+		videoElement.loop = true;
+		videoElement.muted = true;
+		videoElement.playsInline = true;
+		
+		// 移除背景动画和背景图片、背景颜色
+		mainBox.style.animation = 'none';
+		mainBox.style.backgroundImage = 'none';
+		mainBox.style.backgroundColor = 'transparent';
+		
+		// 将视频插入到内容前面
+		mainBox.insertBefore(videoElement, mainBox.firstChild);
+	} else {
+		// 使用图片背景
+		const styleElement = document.createElement('style');
+		styleElement.textContent = `.main-box { background-image: url('./${file}/${fileName}'); }`;
+		document.head.appendChild(styleElement);
+	}
 </script>
 
 </html>
